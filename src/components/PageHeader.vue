@@ -41,7 +41,7 @@ export default {
                 </li>
             </ul>
         </div>
-        <div class="col">hi</div>
+        <div class="col"></div>
     </div>
 </div>
 

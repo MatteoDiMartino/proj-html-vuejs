@@ -1,10 +1,13 @@
 <script>
 
 import PageHeader from './components/PageHeader.vue'
+import PageHero from './components/PageHero.vue'
+
 
 export default {
   components: {
-    PageHeader
+    PageHeader,
+    PageHero
   }
 }
 
@@ -13,6 +16,7 @@ export default {
 <template>
 
 <PageHeader></PageHeader>
+<PageHero></PageHero>
 
 </template>
 
