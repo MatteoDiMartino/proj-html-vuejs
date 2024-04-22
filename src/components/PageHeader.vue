@@ -8,7 +8,13 @@ export default {
 
 <template>
 
-<h1>ciao</h1>
+<div class="container">
+    <div class="row">
+        <div class="col">hi</div>
+        <div class="col">hi</div>
+        <div class="col">hi</div>
+    </div>
+</div>
 
 </template>
 
