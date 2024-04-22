@@ -9,8 +9,10 @@ export default {
 <template>
 
 <div class="container">
-    <div class="row">
-        <div class="col">hi</div>
+    <div class="row py-3 px-2">
+        <div class="col">
+            <img src="../assets/img/logo-gobike.png" alt="logo-gobike" class="w-50">
+        </div>
         <div class="col">hi</div>
         <div class="col">hi</div>
     </div>
