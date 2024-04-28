@@ -14,9 +14,11 @@ export default {
         <div class="ms-box-hero">
             <div class="ms-box-txt text-white">
                         <div class="col d-flex align-items-center m-5">
-                            <button class="border-0 px-2 me-4 py-1 bg-black text-white fs-4">
-                                <i class="fa-solid fa-arrow-left"></i>
-                            </button>
+                            <div class="ms-box-btn me-3">
+                                <button>
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </button>
+                            </div>
                             <div class="justify-content-start">
                                     <div class="fs-1 fw-bold w-50 ms-maintxt-slider mb-2">Professional Cycling Club</div>
                                 <span class="pt-1">Learn cycling from the pros.</span>
@@ -29,9 +31,11 @@ export default {
                         </div>
                         <div class="col-1">
                         <div class="m-5">
-                            <button class="border-0 px-2 py-1 bg-black text-white fs-4">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </button>
+                            <div class="ms-box-btn">
+                                <button>
+                                    <i class="fa-solid fa-angle-right"></i>                         
+                                </button>
+                            </div>
                         </div>
                 </div>    
             </div>
@@ -54,6 +58,20 @@ section {
         object-fit: cover;
     }
 
+    .ms-box-btn {
+        width: 40px;
+        height: 40px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+
+        button {
+            font-size: 21px;
+            color: white;
+            background-color: transparent;
+        }
+    }
 
     .ms-box-hero {
         display: flex;
