@@ -13,8 +13,7 @@ export default {
     <div class="container">
         <div class="row">
             <div class="col-6">
-                <img src="../assets/img/bike-circle.png" class="w-75 my-5">
-                <img src="../assets/img/bike-player.png" class="w-75 my-5">
+                <img src="../assets/img/bike-player.png" class="w-75 my-5 ms-img-bg">
             </div>
             <div class="col-6">ciao</div>
         </div>
