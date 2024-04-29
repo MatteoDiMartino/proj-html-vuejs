@@ -19,7 +19,10 @@ export default {
     <div class="d-flex text-center justify-content-center">
         <div class="col d-flex text-center justify-content-center">
             <div class="ms-card-box">
-                <img src="../assets/img/training-box-1.jpg" alt="">
+                <div class="box-txt">
+                    <span class="ms-card-txt fw-bold fs-5 text-white ">Riding Lesson</span>  
+                </div>
+                <img src="../assets/img/training-box-1.jpg" alt="" class="">
             </div>
         </div>
         <div class="col d-flex text-center justify-content-center">
@@ -49,6 +52,7 @@ export default {
     border: 10px solid black;
     height: 480px;
     width: 270px;
+    background-color: black;
 
     col {
         display: flex;
@@ -59,6 +63,18 @@ export default {
         height: 100%;
         width: 100%;
         object-fit: cover;
+        opacity: 0.8;
+
+    }
+
+    .box-txt {
+        position: relative;
+        span {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px 20px;
+        }
     }
 }
 
