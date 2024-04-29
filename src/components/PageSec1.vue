@@ -23,4 +23,12 @@ export default {
 
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+
+.ms-img-bg {
+    background-image: url(../assets/img/bike-circle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+</style>
