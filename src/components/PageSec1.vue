@@ -8,16 +8,15 @@ export default {
 
 <template>
 
-<!-- <h1>ciao</h1> -->
 
-<!-- <section>
+<section>
     <div class="container">
         <div class="row">
             <div class="col-6">ciao</div>
             <div class="col-6">ciao</div>
         </div>
     </div>
-</section> -->
+</section>
 
 
 </template>
