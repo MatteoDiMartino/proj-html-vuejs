@@ -43,6 +43,9 @@ export default {
         </div>
         <div class="col d-flex text-center justify-content-center">
             <div class="ms-card-box">
+                <div class="box-txt">
+                    <span class="ms-card-txt fw-bold fs-5 text-white ">Trail Drive</span>  
+                </div>
                 <img src="../assets/img/training-box-4.jpg" alt="">
             </div>
         </div>
@@ -70,7 +73,12 @@ export default {
         width: 100%;
         object-fit: cover;
         opacity: 0.7;
+        transition: 0.7s;
 
+        &:hover {
+            opacity: 1;
+            transition: 1s;
+        }
     }
 
     .box-txt {
