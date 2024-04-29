@@ -29,18 +29,26 @@ export default {
                         <div class="ms-box-icon">
                             <div class="col d-flex align-items-center">
                                 <img src="../assets/img/racing-helmet.png" alt="" class="ms-icon">
-                                <div class="m-4"> 
+                                <div class="mx-4"> 
                                     <div class="fs-4 fw-bold d-flex">
                                         <span class="align-items-start">Professional Team</span>
                                     </div>
                                     <span>We make you professional by adding your sincerity as well as professionalism.</span>
                                 </div>
-                            </div>    
+                            </div>
+                            
+                            <div class="col d-flex align-items-center h-25">
+                                <img src="../assets/img/helmet.png" alt="" class="ms-icon">
+                                <div class="mx-4"> 
+                                    <div class="fs-4 fw-bold d-flex">
+                                        <span class="align-items-start">Professional Trainings</span>
+                                    </div>
+                                    <span>We make you professional by adding your sincerity as well as professionalism.</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                
                 </div>
-
             </div>
         </div>
     </div>
